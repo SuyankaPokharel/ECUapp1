@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+}
+html,
+body {
+  min-height: 100vh;
+}
+header {
+  background-color: red;
+  height: 50px;
+}
+main {
+  flex-grow: 1;
+  background-color: green;
+  display: flex;
+}
+footer {
+  height: 50px;
+  background-color: blue;
+}
+main aside.left {
+  flex-grow: 1;
+  background-color: green;
+}
+main aside.right {
+  flex-grow: 1;
+  background-color: purple;
+}
+main section {
+  flex-grow: 4;
+  background-color: white;
+}
